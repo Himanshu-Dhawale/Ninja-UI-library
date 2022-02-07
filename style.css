@@ -33,7 +33,7 @@ body {
 }
 
 .nav-center h4:hover{
-    color:#764abc;
+    color: var(--accent-color);
 }
 .logo-container {
     display: flex;
@@ -43,11 +43,11 @@ body {
 }
 
 .logo-container h2{
- color: #764abc
+ color: var(--accent-color)
 }
 
 
-main{
+.main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,7 @@ main{
 }
 
 .main-text span{
-    color: #764abc;
+    color: var(--accent-color);
 }
 
 
@@ -90,7 +90,7 @@ button {
 
 .primary-btn{
     border: 1px solid var(--accent-color);
-    background-color: #764abc;
+    background-color: var(--accent-color);
     color: var(--primary-color);
     border-radius: 0.3rem;
     font-weight: 600;
@@ -98,5 +98,5 @@ button {
 }
 
 .primary-btn:hover{
-    background-color: #007BFB;
+    background-color: var(--hover);
 }
