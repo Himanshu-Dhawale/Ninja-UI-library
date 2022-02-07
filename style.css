@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap');
+@import url("color-pallete/color.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color:var(--primary-color);
+    word-wrap: break-word;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: var(--font-color);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.2rem 2rem;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-grow: 1;
+    gap: 2rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.nav-center h4:hover{
+    color: var(--accent-color);
+}
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.logo-container h2{
+ color: var(--accent-color)
+}
+
+
+.main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 3.75rem 0;
+}
+.main-text h1 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+.main-text span{
+    color: var(--accent-color);
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 1.5rem 1.5rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.primary-btn{
+    border: 1px solid var(--accent-color);
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border-radius: 0.3rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.primary-btn:hover{
+    background-color: var(--hover);
+}
