@@ -1,0 +1,48 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap');
+@import url("/docs/header.css");
+@import url("/docs/sidebar.css");
+@import url("/docs/container.css");
+@import url("/color-palette/color.css");
+
+/* alert styles */
+
+.alert {
+  max-width: 45rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--borderRadius);
+  margin: 2rem 2rem;
+}
+
+.alert p {
+  margin: 0;
+}
+
+.alert-primary {
+  background: var(--clr-blue-primary);
+  color: var(--clr-white);
+}
+
+.alert-secondary {
+  background: var(--clr-grey-40);
+}
+
+.alert-error {
+  background: var(--clr-red);
+  color: var(--clr-white);
+}
+
+.alert-warning {
+  background: var(--clr-yellow);
+}
+
+.alert-success {
+  background: var(--clr-green);
+  color: var(--clr-white);
+}
+
+.alert-info{
+  background-color: var(--clr-grey-40);
+}
+

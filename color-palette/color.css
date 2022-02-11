@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #fff;
+    --accent-color: #764abc;
+    --font-color: #160C28;
+    --black-color:#091e42;
+    --hover: #007BFB;
+
+ /* Alert component colors */
+--clr-blue-primary: #3753db;
+--clr-white: #fff;
+--clr-red: #e62e4d;
+--clr-green: #3ec764;
+--clr-yellow: #ffab00;
+--clr-grey-50: #c1c7d0;
+--clr-grey-40: #dfe1e6;
+}
+
+
+:root {
+    --transition-one: all 0.3s linear;
+    --transition-two: 0.3s ease-in-out all;
+    --borderRadius: 10px;
+    --letterSpacing: 1px;
+    --max-width: 1120px;
+    --fixed-width: 500px;
+    --fluid-width: 90vw;
+    --gap: 12px;
+    --sidebar-width: 16.94rem;
+  }
