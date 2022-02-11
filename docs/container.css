@@ -7,7 +7,6 @@
     width: calc(100vw - 16.94rem);
     height: calc(100vh - 5rem);
     padding: 0 1.5rem;
-    z-index: 0;
     overflow: auto;
   }
   .component-name {
