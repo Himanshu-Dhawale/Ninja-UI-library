@@ -25,7 +25,6 @@
     margin-bottom: 1rem;
     background: var(--clr-white);
     height: auto;
-    /* max-width: 60rem; */
     border-radius: var(--borderRadius);
     display: flex;
     flex-direction: column;
