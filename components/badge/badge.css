@@ -47,7 +47,7 @@
     right: 2.8rem;
   }
   
-  .busy {
+  .bg-red {
     background: var(--clr-red);
   }
   
@@ -55,9 +55,9 @@
     background: var(--clr-green);
   }
   
-  .unavailable {
+  /* .unavailable {
     background: var(--clr-red);
-  }
+  } */
   
   .icon_container {
     display: flex;
