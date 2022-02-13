@@ -13,6 +13,16 @@
 --clr-yellow: #ffab00;
 --clr-grey-50: #c1c7d0;
 --clr-grey-40: #dfe1e6;
+
+/* Button colors */
+--clr-blue-tint1: #4b64df;
+--clr-blue-dark: #160a40;
+--clr-grey-900: #091e42;
+--clr-red-tint1: #e9435f;
+--clr-yellow-tint1: #ffb319;
+--clr-green-tint1: #51cd74;
+
+
 }
 
 

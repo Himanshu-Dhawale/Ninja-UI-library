@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap');
+@import url("/color-palette/color.css");
+@import url("/docs/header.css");
+@import url("/docs/sidebar.css");
+@import url("/docs/container.css");
+  
+  .btn-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap);
+  }
+  
+  .btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--borderRadius);
+    color: var(--clr-white);
+    width: fit-content;
+    text-align: center;
+    font-size: 1rem;
+  }
+  /* Solid Button */
+  .btn-primary-solid {
+    background: var(--clr-blue-primary);
+  }
+  .btn-primary-solid:hover {
+    background: var(--clr-blue-tint1);
+  }
+  .btn-primary-solid:active {
+    background: var(--clr-blue-primary);
+  }
+  
+  .btn-selected-solid {
+    background: var(--clr-blue-dark);
+  }
+  
+  .btn-secondary-solid {
+    background: var(--clr-grey-40);
+    color: var(--clr-grey-900);
+  }
+  .btn-secondary-solid:hover {
+    background: var(--clr-grey-50);
+  }
+  .btn-secondary-solid:active {
+    background: var(--clr-grey-40);
+  }
+  
+  .btn-danger-solid {
+    background: var(--clr-red);
+  }
+  .btn-danger-solid:hover {
+    background: var(--clr-red-tint1);
+  }
+  .btn-danger-solid:active {
+    background: var(--clr-red);
+  }
+  
+  .btn-warning-solid {
+    background: var(--clr-yellow);
+    color: var(--clr-grey-900);
+  }
+  .btn-warning-solid:hover {
+    background: var(--clr-yellow-tint1);
+  }
+  .btn-warning-solid:active {
+    background: var(--clr-yellow);
+  }
+  
+  .btn-success-solid {
+    background: var(--clr-green);
+  }
+  .btn-success-solid:hover {
+    background: var(--clr-green-tint1);
+  }
+  .btn-success-solid:active {
+    background: var(--clr-green);
+  }
+  
+  /* outline button */
+  .btn-primary-outline {
+    color: var(--clr-blue-primary);
+    border: 1px solid var(--clr-blue-primary);
+  }
+  .btn-primary-outline:hover {
+    background: var(--clr-blue-primary);
+    color: var(--clr-white);
+  }
+  .btn-primary-outline:active {
+    background: none;
+    color: var(--clr-blue-primary);
+    border: 1px solid var(--clr-blue-primary);
+  }
+  
+  .btn-secondary-outline {
+    color: var(--clr-grey-900);
+    border: 1px solid var(--clr-grey-50);
+  }
+  .btn-secondary-outline:hover {
+    background: var(--clr-grey-50);
+  }
+  .btn-secondary-outline:active {
+    background: none;
+    color: var(--clr-grey-900);
+    border: 1px solid var(--clr-grey-50);
+  }
+  
+  .btn-danger-outline {
+    color: var(--clr-red);
+    border: 1px solid var(--clr-red);
+    background: none;
+  }
+  .btn-danger-outline:hover {
+    background: var(--clr-red);
+    color: var(--clr-white);
+  }
+  .btn-danger-outline:active {
+    color: var(--clr-red);
+    border: 1px solid var(--clr-red);
+    background: none;
+  }
+  
+  .btn-warning-outline {
+    color: var(--clr-yellow);
+    border: 1px solid var(--clr-yellow);
+  }
+  .btn-warning-outline:hover {
+    background: var(--clr-yellow);
+    color: var(--clr-grey-900);
+  }
+  .btn-warning-outline:active {
+    color: var(--clr-yellow);
+    background: none;
+  }
+  
+  .btn-success-outline {
+    color: var(--clr-green);
+    border: 1px solid var(--clr-green);
+  }
+  .btn-success-outline:hover {
+    color: var(--clr-white);
+    background: var(--clr-green);
+  }
+  .btn-success-outline:active {
+    color: var(--clr-green);
+    background: none;
+  }
+  
+  .btn-link {
+    color: var(--clr-blue-primary);
+  }
+  
+  .btn-link:hover {
+    text-decoration: underline;
+  }
+  .btn-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.2rem;
+    background-color: var(--clr-blue-primary);
+    color: var(--clr-white);
+  }
+  
+  .btn-float {
+    background-color: var(--clr-blue-primary);
+    color: var(--clr-white);
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+  }
+  
+  .float {
+    z-index: 1000;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+  }
