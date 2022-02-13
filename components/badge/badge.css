@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap');
+@import url("../avatar/avatar.css");
+
+  /* badge styles*/
+  
+  .container_components {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--gap);
+  }
+
+  .badge {
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .badge_container {
+    position: relative;
+  }
+  
+  .badge-xxl {
+    height: 1.1rem;
+    width: 1.1rem;
+    bottom: 15px;
+    right: 3.4rem;
+  }
+  
+  .badge-xl {
+    height: 0.8rem;
+    width: 0.8rem;
+    bottom: 12px;
+    right: 3.4rem;
+  }
+  
+  .badge-l {
+    height: 0.6rem;
+    width: 0.6rem;
+    bottom: 9px;
+    right: 3rem;
+  }
+  
+  .badge-standard {
+    height: 0.5rem;
+    width: 0.5rem;
+    bottom: 7px;
+    right: 2.8rem;
+  }
+  
+  .bg-red {
+    background: var(--clr-red);
+  }
+  
+  .online {
+    background: var(--clr-green);
+  }
+  
+  /* .unavailable {
+    background: var(--clr-red);
+  } */
+  
+  .icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    color: var(--clr-green);
+  }
+  
+  .icon-badge {
+    background: var(--clr-red);
+    color: var(--clr-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    height: 1.2rem;
+    width: 1.2rem;
+    top: -3px;
+    right: -5px;
+  }
