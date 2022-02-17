@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap');
+@import url("/docs/header.css");
+@import url("/docs/sidebar.css");
+@import url("/docs/container.css");
+@import url("/color-palette/color.css");
+@import url("/components/badge/badge.css");
+@import url("/components/avatar/avatar.css");
+@import url("/components/button/button.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    word-wrap: break-word;
+}
+
+  .relative {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .fixed {
+    position: fixed;
+  }
+  
+  .light-shadow {
+    box-shadow: var(--light-shadow);
+  }
+  
+  .dark-shadow {
+    box-shadow: var(--dark-shadow);
+  }
+  
+  .underline {
+    border-bottom: 1px solid var(--clr-grey-50);
+  }
+  
+    /* image styles */
+img{
+    max-inline-size: 100%;
+    block-size: auto;
+  }
+  
+  .responsive-image {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .round-image-container {
+    width: 20%;
+  }
+  
+  .round-image {
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1;
+    width: 100%;
+  }
+
+  
+.busy {
+  background: var(--clr-red);
+}
+
+.online {
+  background: var(--clr-green);
+}
+
+.unavailable {
+  background: var(--clr-grey-80);
+}
+
+.icon__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.4rem;
+}
+
+.icon-badge {
+  background: var(--clr-red);
+  color: var(--clr-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  height: 1.2rem;
+  width: 1.2rem;
+  top: -3px;
+  right: -5px;
+}
+/* card styles */
+.cards-component {
+    background: var(--clr-grey-40);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    background: var(--clr-white);
+    border-radius: var(--borderRadius);
+  }
+  
+  .card h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  .img {
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .card__text-only {
+    width: 20rem;
+    padding: 1rem;
+    text-align: justify;
+  }
+  
+  .card-subtitle {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card__horizontal {
+    display: flex;
+    width: 30rem;
+    max-height: 12rem;
+    position: relative;
+  }
+  
+  .image-container-hz {
+    width: 18rem;
+  }
+  
+  .wishlist-icon-hz,
+  .wishlist-icon-vert {
+    position: absolute;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--clr-white);
+  }
+  .wishlist-icon-hz {
+    bottom: 0.5rem;
+    left: 9rem;
+  }
+  
+  .wishlist-icon-vert {
+    top: 16rem;
+    right: 1rem;
+  }
+  
+  .wishlist-icon-hz:hover,
+  .wishlist-icon-vert:hover {
+    color: var(--clr-red);
+  }
+  
+  .text-btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-container {
+    padding: 0.5rem;
+  }
+  
+  .card__horizontal .btn-container {
+    padding: 0.5rem;
+  }
+  
+  .card-title {
+    margin: 0;
+  }
+  
+  .cta-btn {
+    margin-top: auto;
+    justify-content: space-evenly;
+  }
+  
+  .cta-btn a {
+    font-size: 0.8rem;
+    border-radius: 0;
+  }
+  
+  .card__vertical .cta-btn a {
+    width: 100%;
+  }
+  
+  .card-badge {
+    background: var(--clr-blue-primary);
+    color: var(--clr-white);
+    border-radius: 0;
+    top: 10px;
+    left: 0;
+    padding: 0 0.5rem;
+    border-top-right-radius: var(--borderRadius);
+    border-bottom-right-radius: var(--borderRadius);
+  }
+  
+  .overlay {
+    position: absolute;
+    background: var(--clr-grey-30);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: transparent;
+    color: var(--clr-red);
+  }
+  
+  .text-overlay h3 {
+    font-weight: 900;
+    letter-spacing: 5px;
+  }
+  
+  .dismiss {
+    top: 0.2rem;
+    right: 0.5rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  
+  .card__vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    position: relative;
+  }
+  
+  .image-container-vert {
+    width: 100%;
+    height: 18rem;
+  }
+  
+  .vertical-text {
+    margin: 0 0 1rem;
+  }
