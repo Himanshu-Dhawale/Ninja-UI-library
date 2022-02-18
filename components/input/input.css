@@ -17,10 +17,6 @@ form {
   flex-direction: column;
 }
 
-form button {
-  width: fit-content;
-}
-
 .warning {
   border: 2px solid var(--clr-yellow);
 }
