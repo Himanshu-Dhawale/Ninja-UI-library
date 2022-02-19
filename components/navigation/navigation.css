@@ -1,0 +1,37 @@
+@import url("/docs/header.css");
+@import url("/docs/sidebar.css");
+@import url("/docs/container.css");
+@import url("/color-palette/color.css");
+
+
+.container_components{
+  background-color: var(--clr-grey-40)
+}
+
+.nav-bar {
+    background-color: var(--clr-white);
+    padding: 0.5rem 1rem;
+    width: 100%;
+    box-shadow: var(--light-shadow);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-title {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.nav-icon{
+    /* background-color: var(--clr-white);  */
+    border: none;
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+}
+
+.nav-icon:hover,i:hover {
+    cursor: pointer;
+    background-color: var(--clr-off-white);
+    border-radius: 50%;
+}
