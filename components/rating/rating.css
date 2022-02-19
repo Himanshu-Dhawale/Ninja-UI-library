@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap');
+@import url("/color-palette/color.css");
+@import url("/docs/header.css");
+@import url("/docs/sidebar.css");
+@import url("/docs/container.css");
+
+
+/* rating styles */
+.rating {
+    display: flex;
+    gap: 5px;
+  }
+  .rating-icon {
+    font-size: 1.5rem;
+    color: var(--clr-grey-90);
+    background: none;
+  }
+  .rated {
+    color: var(--clr-yellow);
+  }
+
+  .rated-number{
+    border: 2px solid black;
+    padding: 5px 8px;
+    color: var(--clr-yellow);
+  }
+
+  
