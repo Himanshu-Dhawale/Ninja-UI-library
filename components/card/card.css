@@ -95,13 +95,14 @@ img{
 }
 /* card styles */
 .cards-component {
-    background: var(--clr-grey-40);
+    background: var(--clr-white);
     align-items: center;
     justify-content: center;
   }
   
   .card {
     background: var(--clr-white);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     border-radius: var(--borderRadius);
   }
   
