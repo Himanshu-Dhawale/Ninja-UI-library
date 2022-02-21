@@ -22,6 +22,9 @@ body {
     padding: 0.2rem 2rem;
 }
 
+.nav-links{
+    text-decoration: none;
+}
 .nav-center {
     display: flex;
     justify-content: end;
@@ -100,3 +103,4 @@ button {
 .primary-btn:hover{
     background-color: var(--hover);
 }
+
