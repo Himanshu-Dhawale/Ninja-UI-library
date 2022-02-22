@@ -27,3 +27,7 @@ To use the components in your project, copy-paste the below link in your stylesh
  - [Navigation](https://ninjaui.netlify.app/components/navigation/navigation.html)
  - [Rating](https://ninjaui.netlify.app/components/rating/rating.html)
  - [Slider](https://ninjaui.netlify.app/components/slider/slider.html)
+
+## Demo
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/80173512/155062858-4bd9ab4d-e5f6-418d-bfd1-dcc2a8aad56d.gif)
