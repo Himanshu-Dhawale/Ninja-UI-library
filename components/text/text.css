@@ -1,0 +1,21 @@
+@import url("/color-palette/color.css");
+@import url("/docs/header.css");
+@import url("/docs/sidebar.css");
+@import url("/docs/container.css");
+  
+.grey-text{
+  color: var(--clr-grey-50);  
+}
+
+.text-align-container .text-left {
+    width: 100%;
+    text-align: left;
+  }
+.text-align-container .text-center {
+    width: 100%;
+    text-align: center;
+  }
+.text-align-container .text-right {
+    width: 100%;
+    text-align: right;
+  }
