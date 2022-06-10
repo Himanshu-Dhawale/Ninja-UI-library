@@ -27,3 +27,5 @@ To use the components in your project, copy-paste the below link in your stylesh
  - [Navigation](https://ninjaui.netlify.app/components/navigation/navigation.html)
  - [Rating](https://ninjaui.netlify.app/components/rating/rating.html)
  - [Slider](https://ninjaui.netlify.app/components/slider/slider.html)
+ - [Modal](https://ninjaui.netlify.app/components/slider/modal.html)
+ - [Toast](https://ninjaui.netlify.app/components/slider/toast.html)
